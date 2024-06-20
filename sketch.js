@@ -24,7 +24,7 @@ function draw() {
 
   fill(220);
   textAlign(CENTER, CENTER);
-  text(buttonText, 300, 1080 / 2, 800);
+  text(buttonText, 0, 1080 / 2, 800);
 }
 
 function mousePressed() {
