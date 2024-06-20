@@ -12,10 +12,10 @@ function setup() {
   createCanvas(1920, 1080);
   textFont(myFont);
   textSize(64);
-  buttonWidth = textWidth(buttonText);
+  buttonWidth = textWidth(buttonText.width);
   buttonHeight = 128; 
-  buttonX = (width - buttonWidth) / 2;
-  buttonY = (height - buttonHeight) / 2;
+  buttonX = (1920 - buttonWidth) / 2;
+  buttonY = (1080 - buttonHeight) / 2;
 }
 
 function draw() {
@@ -24,7 +24,7 @@ function draw() {
 
   fill(220);
   textAlign(CENTER, CENTER);
-  text(buttonText, width / 2, height / 2, 800);
+  text(buttonText, 600, 1080 / 2, 800);
 }
 
 function mousePressed() {
