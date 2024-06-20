@@ -1,7 +1,7 @@
 
 
 let myFont;
-let buttonText = "Five stages of grief"
+let buttonText = "Five stages of grief Let's play"
 let buttonX, buttonY, buttonWidth, buttonHeight;
 
 function preload() {
@@ -24,8 +24,7 @@ function draw() {
 
   fill(220);
   textAlign(CENTER, CENTER);
-  text(buttonText);
-  text("Let's play")
+  text(buttonText, 600, 1080 / 2, 800);
 }
 
 function mousePressed() {
